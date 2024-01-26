@@ -1,0 +1,51 @@
+(base)
+DELL@Zenserito MINGW64 ~/Desktop/Pulchowk/Minor Project/End-to-end-Waste-Detection-Using-Yolo-v5 (main)
+$ conda activate anaconda3
+(anaconda3)
+DELL@Zenserito MINGW64 ~/Desktop/Pulchowk/Minor Project/End-to-end-Waste-Detection-Using-Yolo-v5 (main)
+$ code .
+(anaconda3)
+DELL@Zenserito MINGW64 ~/Desktop/Pulchowk/Minor Project/End-to-end-Waste-Detection-Using-Yolo-v5 (main)
+$ python template.py
+Traceback (most recent call last):
+  File "template.py", line 5, in <module>
+    logging.basicConfig(Level=logging.INFO, format='[%(asctime)s]: [%(message)s]')
+  File "C:\Users\DELL\miniconda2\envs\anaconda3\lib\logging\__init__.py", line 1919, in basicConfig
+    raise ValueError('Unrecognised argument(s): %s' % keys)
+ValueError: Unrecognised argument(s): Level
+(anaconda3)
+DELL@Zenserito MINGW64 ~/Desktop/Pulchowk/Minor Project/End-to-end-Waste-Detection-Using-Yolo-v5 (main)
+$ python --version
+Python 3.7.16
+(anaconda3)
+DELL@Zenserito MINGW64 ~/Desktop/Pulchowk/Minor Project/End-to-end-Waste-Detection-Using-Yolo-v5 (main)
+$ conda install auto::logging
+Collecting package metadata (current_repodata.json): done
+Solving environment: failed with initial frozen solve. Retrying with flexible solve.
+Collecting package metadata (repodata.json): done
+Solving environment: failed with initial frozen solve. Retrying with flexible solve.
+
+PackagesNotFoundError: The following packages are not available from current channels:
+
+  - auto::logging
+
+Current channels:
+
+  - https://repo.anaconda.com/pkgs/main/win-64
+  - https://repo.anaconda.com/pkgs/main/noarch
+  - https://repo.anaconda.com/pkgs/r/win-64
+  - https://repo.anaconda.com/pkgs/r/noarch
+  - https://repo.anaconda.com/pkgs/msys2/win-64
+  - https://repo.anaconda.com/pkgs/msys2/noarch
+
+To search for alternate channels that may provide the conda package you're
+looking for, navigate to
+
+    https://anaconda.org
+
+and use the search bar at the top of the page.
+
+
+(anaconda3)
+DELL@Zenserito MINGW64 ~/Desktop/Pulchowk/Minor Project/End-to-end-Waste-Detection-Using-Yolo-v5 (main)
+$
